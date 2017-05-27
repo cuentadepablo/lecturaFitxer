@@ -27,6 +27,10 @@ public class LecturaDeFichero {
             while (s.hasNextLine()){
                 String linea =s.nextLine();
                 System.out.println(linea);
+                if (s.equals("tmp.txt")) {
+                    System.out.println("Hasta aqui hemos llegado!!!");
+                }
+                
                 
             }
         }catch(Exception Ex){
